@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.font{
+	font-family: 'Poiret One', arial;
+}
+/*todos los estilos que tengan el "!important" es por que el css de materialize los confunde y lee los otros.*/
+/*Estos estilos corresponden al index.*/
+
+.marginTop{
+	margin-top: 20px;
+}
+nav{
+	background-color: #cccccc !important;
+}
+main{
+	height: 90px;
+}
+aside{
+	height: 90px;
+	
+}
+a:hover{
+	color: #cccccc;
+}
+aside .fontStyles{
+	font-size: 12px;
+	border: 3px;
+	font-family: 'Poiret One', arial;
+	color: black !important;
+}
+.black{
+	color: black;
+}
+a{
+	color: black !important;
+}
